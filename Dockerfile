@@ -28,7 +28,6 @@ RUN /usr/local/graalvm/bin/native-image \
 
 #FROM scratch
 #FROM alpine:3.8 #no libc!!
-#FROM openjdk:8-slim
 FROM busybox:glibc
 #LABEL maintainer="tomas.zezula@oracle.com"
 WORKDIR /function
