@@ -1,0 +1,10 @@
+
+[
+  {
+    "name" : "com.example.fn.Hellosvm",
+    "methods" : [
+        { "name" : "handleRequest" },
+        { "name" : "<init>"}
+    ]
+  }
+]
