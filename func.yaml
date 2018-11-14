@@ -3,3 +3,7 @@ name: hellosvm
 version: 0.0.1
 runtime: docker
 format: http-stream
+triggers:
+- name: svm-trigger
+  type: http
+  source: /svm
